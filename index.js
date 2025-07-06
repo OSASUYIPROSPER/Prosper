@@ -19,7 +19,7 @@ const {
   const { File } = require('megajs')
   const prefix = '.'
   
-  const ownerNumber = ['923237045919']
+  const ownerNumber = ['2349116370966']
   
   //===================SESSION-AUTH============================
   if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,10 +67,10 @@ const {
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('your name connected to whatsapp ✅')
+  console.log('prosperconnected to whatsapp ✅')
   
   let up =`╔═════════════════╗
-  ║      your name           
+  ║      prosper      
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: .            
@@ -81,11 +81,11 @@ const {
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐋𝐈𝐍𝐊          
   ║ https://wa.me/message/VRZ5QLDAHXKSF1                 
   ╠═════════════════╣
-  ║      your name               
-  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ your name       
+  ║      prosper             
+  ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ person 
   ╚═════════════════╝
 `;
-  conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
+  conn.sendMessage(ownerNumber + "+2349116370966", { image: { url: `https://files.catbox.moe/atby2t.png` }, caption: up })
   
   }
   })
